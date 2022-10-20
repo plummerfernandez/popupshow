@@ -2,5 +2,4 @@
 
 This is the year 2 pop up show website.
 Thatcuriousdesigner was here
-EVRA WAZ HERE
-peepee poopoo haha
+hey that curious designer 
