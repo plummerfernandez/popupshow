@@ -1,12 +1,22 @@
-#backgroundVid{
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
+.contents{
+    width:100%;
+    height:100vh;
+    overflow: hidden;
+}
+.backgroundVid{
+    object-fit: cover;
+    width:100%;
+    height:100%;
 }
 
-#mainText{
+.mainText{
+    color:white;
+    margin: 0;
     position: absolute;
+    z-index: 2;
+    font-size: 3em;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
     text-align: center;
 }
