@@ -1,5 +1,5 @@
 body {
-  background-color: #B2B2B2;
+  background-color: #FFD166;
 }
 
 h1 {
@@ -9,6 +9,7 @@ h1 {
 }
 
 h2 {
+  padding-top: 50px;
   color: coral;
   text-align: center;
   font-size: 40px;
