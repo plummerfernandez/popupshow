@@ -5,3 +5,8 @@
     min-width: 100%;
     min-height: 100%;
 }
+
+#mainText{
+    position: absolute;
+    text-align: center;
+}
