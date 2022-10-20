@@ -3,9 +3,15 @@ body {
 }
 
 h1 {
-  color: #00ABB3;
+  color: teal;
   text-align: center;
   font-size: 100px;
+}
+
+h2 {
+  color: coral;
+  text-align: center;
+  font-size: 40px;
 }
 
 p {
