@@ -15,6 +15,25 @@ h2 {
   font-size: 40px;
 }
 
+.logo {
+  -webkit-animation: flicker 1s infinite;
+  text-align:center;
+  margin-top:3em;
+  color: teal;
+  font-family:'Lato', sans-serif;
+  font-size:3em;
+}
+
+@-webkit-keyframes flicker
+{
+0% {opacity:1;}
+9% {opacity:0;}
+10% {opacity:1;}
+13% {opacity:0;}
+20% {opacity:1;}
+25% {opacity:0.1;}
+}
+
 p {
   font-family: verdana;
   font-size: 20px;
