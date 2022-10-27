@@ -1,0 +1,85 @@
+body {
+  background-color: black;
+}
+
+a:link {
+  color: hotpink; 
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightpink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: hotpink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+div2{
+  position: fixed;
+  background-color: transparent;
+  font-family:"Helvetica"; 
+  column-count: auto;
+  column-width: 100%;
+  padding: 10px;
+  white-space: normal;
+  display: inline-block;
+  width: 100%;
+}
+
+#text::after {
+  content: "\A";
+  white-space: pre;
+}
+
+span {
+  width: 33%;
+  table-layout: fixed;
+  display: inline-block;
+}
+
+div_img {
+  column-count: auto;
+  column-width: 100%;
+  width: 100%;
+  display: table;
+}
+
+h1_bio {
+  font-size: 200%;
+  width: 100%;
+  text-align: center;
+  }
+
+i_bio {
+  font-size: 100%;
+  text-align: center;
+}
+
+.division0 {
+  background: #d9d9d9; 
+  margin: 5%; 
+  padding: 2%;
+  text-align: center;
+}
+.division1 {
+  background: black;
+  margin: 2%;
+}
+
+#bio {
+  /* display: block; */
+  margin-right: 1%;
+  border-radius: 10px;
+}
